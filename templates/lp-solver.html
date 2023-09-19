@@ -56,14 +56,14 @@
         
         <fieldset>
             <label for="simplex"> 
-                <input type="radio" name="problem-type" id="simplex" class="inline" value="simplex"
+                <input type="radio" name="problem-type" id="simplex" class="inline" value="simplex" checked="True"
                     {% if form_data.get('problem-type') == 'simplex' %}checked{% endif %}/>
                 Simplex
             </label>
             <label for="two-phase-simplex"> 
                 <input type="radio" name="problem-type" id="two-phase-simplex" class="inline" value="two-phase-simplex"
                     {% if form_data.get('problem-type') == 'two-phase-simplex' %}checked{% endif %}/>
-                Two-phase Simplex
+                Two-phase Simplexß
             </label>
             <label for="canonical"> 
                 <input type="checkbox" name="show-canonical" id="canonical" class="inline" value="True"
